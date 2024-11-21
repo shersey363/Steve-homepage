@@ -112,7 +112,7 @@ footer {
     }
 }
 img {
-    max-width: 100%;  /* Ensures the image will not exceed its container's width */
+    max-width: 20%;  /* Ensures the image will not exceed its container's width */
     height: auto;     /* Maintains the aspect ratio */
     display: block;   /* Removes extra space below the image */
     margin: 0 auto;   /* Centers the image */
