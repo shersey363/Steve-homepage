@@ -8,12 +8,6 @@ body {
     
 }
 
-main {
-    height: auto;             /* Ensure body can grow to fit content */
-    overflow-x: hidden;       /* Prevent horizontal scrolling */
-    overflow-y: auto;         /* Allow vertical scrolling */
-    
-}
 
 h1, h2, h3 {
     color: #2c3e50;
@@ -45,13 +39,16 @@ img {
     max-width: 50%;  /* Ensures the image will not exceed its container's width */
     height: auto;     /* Maintains the aspect ratio */
     display: block;   /* Removes extra space below the image */
-    margin: -10 auto;   /* Centers the image */
+    margin: 0 auto;   /* Centers the image */
 }
 /* Main Content */
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    height: auto;             /* Ensure body can grow to fit content */
+    overflow-x: hidden;       /* Prevent horizontal scrolling */
+    overflow-y: auto;         /* Allow vertical scrolling */
 }
 
 section {
@@ -132,4 +129,5 @@ footer {
     .recipe-card {
         padding: 8px;
     }
+}
 
