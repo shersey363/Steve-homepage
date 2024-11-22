@@ -5,13 +5,15 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    height: auto;             /* Ensure body can grow to fit content */
-    overflow-x: hidden;       /* Prevent horizontal scrolling */
-    overflow-y: auto;         /* Allow vertical scrolling */
+    
 }
 
 main {
     overflow: visible;        /* Ensure main content is scrollable */
+    height: auto;             /* Ensure body can grow to fit content */
+    overflow-x: hidden;       /* Prevent horizontal scrolling */
+    overflow-y: auto;         /* Allow vertical scrolling */
+    
 }
 
 h1, h2, h3 {
