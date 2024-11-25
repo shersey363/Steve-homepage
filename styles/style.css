@@ -47,7 +47,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     height: auto;             /* Ensure body can grow to fit content */
-    overflow-x: hidden;       /* Prevent horizontal scrolling */
+    overflow-x: auto;         /* Allow horizontal scrolling */
     overflow-y: auto;         /* Allow vertical scrolling */
 }
 
