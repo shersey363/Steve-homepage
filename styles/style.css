@@ -5,6 +5,9 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    height: 100%; /* Ensures body takes the full height of the viewport */
+    overflow-y: scroll; /* Enables vertical scrolling if needed */
+     overflow-x: auto;         /* Allow horizontal scrolling */
     
 }
 
@@ -46,9 +49,8 @@ main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    height: auto;             /* Ensure body can grow to fit content */
-    overflow-x: auto;         /* Allow horizontal scrolling */
-    overflow-y: auto;         /* Allow vertical scrolling */
+    height: 100%;             /* Ensure body can grow to fit content */
+
 }
 
 section {
