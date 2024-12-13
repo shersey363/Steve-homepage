@@ -39,12 +39,13 @@ header h1 {
 }
 
 img {
-    max-width: 25%;  /* Ensures the image will not exceed its container's width */
-    height: auto;     /* Maintains the aspect ratio */
+    width: 1.5in;
+    height: 1.5in;
+    margin: 0;
+    float: left;max-width: 25%;  /* Ensures the image will not exceed its container's width */
     display: block;   /* Removes extra space below the image */
-    margin: 0 ;   /* Left Justifies the image */
-    Float: left ; /* Left Justifies the image */
 }
+
 /* Main Content */
 main {
     padding: 20px;
