@@ -42,7 +42,7 @@ img {
     width: 1.5in;
     height: 1.5in;
     margin: 0;
-    float: left;max-width: 25%;  /* Ensures the image will not exceed its container's width */
+    float: left;
     display: block;   /* Removes extra space below the image */
 }
 
