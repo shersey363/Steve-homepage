@@ -39,7 +39,7 @@ header h1 {
 }
 
 img {
-    max-width: 50%;  /* Ensures the image will not exceed its container's width */
+    max-width: 25%;  /* Ensures the image will not exceed its container's width */
     height: auto;     /* Maintains the aspect ratio */
     display: block;   /* Removes extra space below the image */
     margin: 0 auto;   /* Centers the image */
