@@ -46,6 +46,10 @@ img {
     display: block;   /* Removes extra space below the image */
 }
 
+.clear-float {
+    clear: both;
+}
+
 /* Main Content */
 main {
     padding: 20px;
